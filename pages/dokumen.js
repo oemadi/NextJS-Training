@@ -1,22 +1,17 @@
 
-import Home from '../component/home'
+import Dokumen from '../component/dokumen'
 import Template from '../component/template'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-export default function index() {
+export default function dokumen() {
     return (
-      <div>
-      <Container fluid="md">
+      <Container>
         <Row>
         <Template></Template>
-        <Home></Home>
+        <Dokumen></Dokumen>
         </Row>
      </Container>
-     
-     
-    
-           </div>
        
     )
     }

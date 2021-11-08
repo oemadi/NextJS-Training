@@ -4,19 +4,15 @@ import Template from '../component/template'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-export default function index() {
+export default function home() {
     return (
-      <div>
-      <Container fluid="md">
+      <Container>
         <Row>
         <Template></Template>
         <Home></Home>
         </Row>
      </Container>
      
-     
-    
-           </div>
        
     )
     }

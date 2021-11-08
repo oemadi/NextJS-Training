@@ -1,22 +1,21 @@
-
-import Home from '../component/home'
 import Template from '../component/template'
+import Login from '../component/login'
+
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Card from 'react-bootstrap/Card'
 
-export default function index() {
+export default function login() {
     return (
-      <div>
-      <Container fluid="md">
+      <Container >
         <Row>
         <Template></Template>
-        <Home></Home>
+        <h4>Login</h4>
+        <Login></Login>
         </Row>
      </Container>
      
      
-    
-           </div>
        
     )
     }

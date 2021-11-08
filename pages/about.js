@@ -1,22 +1,17 @@
 
-import Home from '../component/home'
+import About from '../component/about'
 import Template from '../component/template'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-export default function index() {
+export default function about() {
     return (
-      <div>
-      <Container fluid="md">
+      <Container >
         <Row>
         <Template></Template>
-        <Home></Home>
+        <About></About>
         </Row>
      </Container>
-     
-     
-    
-           </div>
        
     )
     }
