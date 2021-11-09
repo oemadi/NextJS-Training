@@ -1,18 +1,15 @@
 
 import Home from '../component/home'
-import Template from '../component/template'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
+import Layout from '../component/Layout/index.tsx'
 
-export default function home() {
+export default function index() {
     return (
-      <Container>
-        <Row>
-        <Template></Template>
-        <Home></Home>
-        </Row>
-     </Container>
-     
+      <div>
+  
+        <Layout>
+        <Home/>
+        </Layout>
+      </div>
        
     )
     }

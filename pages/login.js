@@ -1,21 +1,17 @@
-import Template from '../component/template'
+
 import Login from '../component/login'
+import Layout from '../component/Layout/index.tsx'
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Card from 'react-bootstrap/Card'
-
-export default function login() {
+export default function index() {
     return (
-      <Container >
-        <Row>
-        <Template></Template>
-        <h4>Login</h4>
-        <Login></Login>
-        </Row>
-     </Container>
+      <div>
+  
+        <Layout>
+        <Login/>
+        </Layout>
      
-     
+    
+           </div>
        
     )
     }
