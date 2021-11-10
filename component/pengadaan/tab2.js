@@ -1,4 +1,5 @@
-import { Row,Col,Form, Input, Select , Checkbox } from 'antd';
+import { Row,Col,Form, Input, Select , Button } from 'antd';
+import { SaveOutlined,RollbackOutlined} from '@ant-design/icons';
 
 export default function tab2(){
   const { TextArea } = Input;
@@ -85,7 +86,7 @@ const Demo = () => {
     </Row>
     <Row>
     
-        <Col span={8}>
+        <Col span={12}>
         <Form.Item
           label="Kelamin"
           name="kelamin"
@@ -107,7 +108,7 @@ const Demo = () => {
 
         </Form.Item>
         </Col> 
-        <Col span={8}> 
+        <Col span={12}> 
         <Form.Item
           label="Agama"
           name="agama"
@@ -126,7 +127,9 @@ const Demo = () => {
           </Select>
         </Form.Item>
     </Col> 
-    <Col span={8}> 
+    </Row>
+    <Row>
+    <Col span={12}> 
         <Form.Item
           label="Email"
           name="email"
@@ -206,6 +209,21 @@ const Demo = () => {
         
  
     </Row>
+    <Row   style={{width: '100%', justifyContent: 'right'}}>
+        <Col style={{paddingRight: '10px'}}>
+        <Form.Item>
+        <Button type="primary" size="large" icon={<SaveOutlined />}>
+        Simpan</Button>
+        </Form.Item>
+        </Col> 
+        <Col >
+        <Form.Item>
+        <Button type="default" size="large" icon={<RollbackOutlined />}>Batal</Button>
+        </Form.Item>
+        </Col> 
+ 
+    </Row>
+    
         </Form>
         )
 }
