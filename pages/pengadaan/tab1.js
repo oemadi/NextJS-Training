@@ -1,17 +1,16 @@
 
-import Home from '../component/home'
+import Tab1 from '../component/pengadaan/tab1'
+
 import Layout from '../component/Layout/index.tsx'
 
 export default function index() {
     return (
       <div>
   
-        <Layout pageTitle="Beranda">
-        <Home></Home>
+        <Layout>
+        <Tab1/>
         </Layout>
-     
-    
-           </div>
+      </div>
        
     )
     }
