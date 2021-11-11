@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+.formLogin{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin: 2rem;
+
+}
+.bgLogin{
+  display: flex;
+background-color: antiquewhite;
+}
