@@ -17,7 +17,8 @@ export default function Menu() {
       <Nav.Link href="/pengadaan/pengadaan">Pengadaan</Nav.Link>
         <Nav.Link href="/home">Home</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
-        <Nav.Link href="/news">News</Nav.Link>
+        <Nav.Link href="/news">Table Bootstrap</Nav.Link>
+        <Nav.Link href="/tableantd">Table Antd</Nav.Link>
         {/* <Nav.Link href="/dokumen">Document</Nav.Link> */}
         <Nav.Link href="/register">Register</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
